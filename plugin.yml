@@ -1,0 +1,16 @@
+name: NightVisionCommand
+author: Auslatos
+version: 1.0.0
+api: 4.0.0
+main: Auslatos\Main
+
+commands:
+  nightvision:
+    usage: /nightvision
+    description: "Give you the effect NightVision [Plugin By Auslatos]"
+    aliases: [ "nv" ]
+    permission: nv.cmd
+
+permissions:
+  nv.cmd:
+    default: true
